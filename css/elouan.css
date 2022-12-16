@@ -6,6 +6,9 @@ body{
     display: block;
     padding: 10px;
 }
+h1{
+    text-align: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
