@@ -1,0 +1,12 @@
+body{
+    background-color: #FFECD1;
+}
+.logo{
+    max-width: 20%;
+    max-height: 20%;
+}
+.bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
