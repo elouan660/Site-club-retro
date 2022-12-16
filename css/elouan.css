@@ -2,9 +2,9 @@ body{
     background-color: #FFECD1;
 }
 .logo{
-    max-width: 30%;
     display: block;
-    padding: 10px;
+    padding: 5px;
+    float: left;
 }
 h1{
     text-align: center;
@@ -17,29 +17,31 @@ ul {
     background-color: #001524;
     border-radius: 5px;
   }
-  
-  li {
-    float: left;
-  }
-  
-  li .bar {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 90px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #15616D;  
-  }
-  p{
-    background-color: white;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 10px;
-  }
+li .bar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  float: left;
+}
+li .bar-right{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #15616D;  
+}
+p{
+  background-color: white;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
