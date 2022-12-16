@@ -2,15 +2,35 @@ body{
     background-color: #FFECD1;
 }
 .logo{
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 30%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
-.bar{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    overflow: hidden;
+    background-color: #001524;
+    border-radius: 5px;
   }
-li{
-display: block;
-}
+  
+  li {
+    float: left;
+  }
+  
+  li .bar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 90px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #15616D;  
+  }
