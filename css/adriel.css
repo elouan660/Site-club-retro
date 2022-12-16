@@ -1,0 +1,36 @@
+body{
+    background-color: #FEFEE3;
+}
+.logo{
+    max-width: 30%;
+    display: block;
+
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001524;
+    border-radius: 5px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li .bar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 90px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #15616D;  
+  }
