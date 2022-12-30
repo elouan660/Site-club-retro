@@ -1,68 +1,85 @@
 body{
     background-color: #FFECD1;
 }
-.logo{
-    display: block;
-    padding: 5px;
-    float: left;
-}
-h1{
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #001524;
-    border-radius: 5px;
-    position: fixed;
-    top: 5;
-    width: 100%;
+/*Barre de navigation*/
+  .logo{
+      display: block;
+      padding: 5px;
+      float: left;
   }
- /* 
-li {
-  float: left;
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #001524;
+      border-radius: 5px;
+      position: fixed;
+      top: 5;
+      width: 100%;
+  }
+  li .bar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    float: left;
+  }
+  /*
+  li .bar-right{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    float: right;
+  }
+  */
+  li a:hover {
+    background-color: #15616D;  
+  }
+
+
+
+/*Articles multiples*/
+  section {
+      margin-top: 70px;
+  }
+  .text-block{
+    background-color: white;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+/*Formulaires*/
+/*
+  form{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+.form{
+  margin-top: 20px;
+  margin-left: 100px;
+  color: aqua;
+  background-color: aqua;
 }
 */
-li .bar {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 90px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  float: left;
-}
-li .bar-right{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 0px 90px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  float: right;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #15616D;  
-}
-section {
-    margin-top: 70px;
-}
-article{
-  background-color: white;
-  padding: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
 .auto{
   border-radius: 10px;
   width: auto;
