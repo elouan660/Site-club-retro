@@ -16,31 +16,62 @@ ul {
     overflow: hidden;
     background-color: #001524;
     border-radius: 5px;
+    position: fixed;
+    top: 5;
+    width: 100%;
   }
-  
-  li {
-    float: left;
-  }
-  
-  li .bar {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 90px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #15616D;  
-  }
-  p{
-    background-color: white;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 10px;
-  }
+ /* 
+li {
+  float: left;
+}
+*/
+li .bar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  float: left;
+}
+li .bar-right{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #15616D;  
+}
+section {
+    margin-top: 70px;
+}
+article{
+  background-color: white;
+  padding: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.auto{
+  border-radius: 10px;
+  width: auto;
+  height: 50%;
+}
+.mentions-bottom{
+  text-align: center;
+}
+.mentions-page{
+  margin-top: 200px;
+}
 
