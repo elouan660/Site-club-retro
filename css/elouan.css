@@ -9,7 +9,7 @@ body{
   }
   ul {
       list-style-type: none;
-      margin: 0;
+      margin-top: 0px;
       padding: 0;
       overflow: hidden;
       background-color: #001524;
@@ -22,9 +22,9 @@ body{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 90px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 14px 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-decoration: none;
     float: left;
   }
@@ -49,6 +49,7 @@ body{
 /*Articles multiples*/
   section {
       margin-top: 70px;
+      text-align: center;
   }
   .text-block{
     background-color: white;
@@ -83,12 +84,25 @@ body{
 .auto{
   border-radius: 10px;
   width: auto;
-  height: 50%;
+  height: 40%;
+}
+.small{
+  width: auto;
+  height: 10%;
+}
+.right{
+  padding-right: 30%;
+  float: right;
+}
+.left{
+  padding-left: 30%;
+  float: left;
 }
 .mentions-bottom{
   text-align: center;
 }
 .mentions-page{
-  margin-top: 200px;
+  margin-top: 70px;
 }
+
 
