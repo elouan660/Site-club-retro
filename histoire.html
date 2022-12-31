@@ -1,68 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ClubRetroLivet</title>
-        <style>
-            .leaflet-container {
-                height: 400px;
-                width: 600px;
-                max-width: 100%;
-                max-height: 100%;
-            }
-            #map{
-                border-radius: 5px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        </style>
-        <link rel="stylesheet" href="css/elouan.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-        crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-        crossorigin=""></script>
-    </head>
-    <body>
-        <!--Navbar-->
-        <ul class="bar">
-            <li><a href="Site_retro.html"><img width="118" height="39.3" src="img/logo.png" class="logo"></a></li>
-            <li><a class="bar" href="forminscri.html">Inscriptions</a></li> 
-            <li><a class="bar" href="histoire.html">L'histoire du retrogaming</a></li> 
-            <li><a class="bar" href="source.html">Code source</a></li>
-        </ul>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ClubRetroLivet</title>
+    <style>
+        .leaflet-container {
+            height: 400px;
+            width: 600px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        #map{
+            border-radius: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="css/elouan.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <ul id="bar" class="bar">
+      <li><a href="Site_retro.html"><img width="118" height="39" src="img/logo.png" class="logo"></a></li>
+      <li><a class="bar" href="forminscri.html">Inscriptions</a></li> 
+      <li><a class="bar" href="histoire.html">L'histoire du retrogaming</a></li> 
+      <li><a class="bar" href="source.html">Code source</a></li>
+    </ul>
 
 
-        <section>
-            <article class="text-block">
-                <div id="map" style="width: 600px; height: 400px;"></div>
-                <script>
-                
-                    const map = L.map('map').setView([47.225384, -1.5455544], 18);
-                
-                    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                        maxZoom: 19,
-                        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                    }).addTo(map);
-                </script>
-                Voici une carte
-            </article>
-        </section>
+    <section>
+      <article class="text-block">
+        <div id="map" style="width: 600px; height: 400px;"></div>
+        <script>
+        
+            const map = L.map('map').setView([47.225384, -1.5455544], 18);
+        
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+        </script>
+        Voici une carte
+      </article>
+    </section>
 
 
-        <!--Mentions Légales-->
-        <p class="mentions-bottom">
-            <a href="Mentions.html">Mention légales</a> <br>
-            Copyright © Benoît Kourlatof<br>
-  
-            Le code source de ce site est publié sous license 
-            <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">
-              GNU Affero General Public Licence version 3.0 <br>
-              <img src="img/agplv3.png"> <br>
-            </a>
-            il est diponible sur <a href="https://github.com/elouan660/Site-club-retro">Github</a>
-        </p>
-    </body>
+    <!--Mentions Légales-->
+    <p class="mentions-bottom">
+      <a href="Mentions.html">Mentions légales</a> <br>
+      Copyright © Benoît Kourlatof<br>
+
+      Le code source de ce site est publié sous license 
+      <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">
+        GNU Affero General Public Licence version 3.0 <br>
+        <img src="img/agplv3.png"> <br>
+      </a>
+      il est diponible sur <a href="https://github.com/elouan660/Site-club-retro">Github</a>
+    </p>
+  </body>
 </html>
