@@ -33,58 +33,50 @@
         <li><a class="bar" href="source.html">Code source</a></li>
         <!--<li><a class="bar-right">Compte <img width="45" height="35.5" src="img/profile.png"></a></li>-->
       </ul>
-      <div>
-        <section id="news-feed">
-          <h2>Accueil</h2>
-          <article class="text-block right-side small-width">
-            <h2>Ceci est une liste</h2>
-            <ul>
-              <li>élément 1</li>
-              <li>élément 2</li>
-            </ul>
-          </article>
-
-          <article class="text-block left-side large-width">
-            <h2>Bienvenue sur le Site du Club retrogaming</h2>
-            <p>
-              Nous sommes un club de La MDL du Lycée Livet réservé aux lycéens du Lycée Livet et dédié <br>
-              au rétrogaming, nous organisons des Tournois, des découvertes de jeux et des séances <br>
-              arcades avec des consoles en libre service
-            </p>
-            <img class="auto" src="img/sallesdarcade.jpg" alt="salle">
-          </article>
-
-          <article class="text-block left-side large-width">
-            <br><h2>Titre de l'article</h2>
-            <img class="auto" src="img/github.png" alt="image">
-            <p>Contenu de l'article</p>
-          </article>
-
-          <article class="text-block left-side large-width">
-            <h2>Ou nous Trouver?</h2>
-            <div id="map" style="width: 600px; height: 400px;"></div>
-            <script>
-            
-                const map = L.map('map').setView([51.505, -0.09], 13);
-            
-                const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    maxZoom: 19,
-                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                }).addTo(map);
-            </script>
-            Voici une carte
-          </article>
-          <p class="mentions-bottom left-side">
-            <a href="Mentions.html">Mentions légales</a> <br>
-            Copyright © Benoît Kourlatof<br>
-    
-            Le code source de ce site est publié sous license 
-            <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">
-              GNU Affero General Public Licence version 3.0 <br>
-              <img src="img/agplv3.png" alt="agplv3"> <br>
-            </a>
-            il est diponible sur <a href="https://github.com/elouan660/Site-club-retro">Github</a>
+      <div id="news-feed">
+        <article class="text-block large-width">
+          <h2>Bienvenue sur le Site du Club retrogaming</h2>
+          <p>
+            Nous sommes un club de La MDL du Lycée Livet réservé aux lycéens du Lycée Livet et dédié <br>
+            au rétrogaming, nous organisons des Tournois, des découvertes de jeux et des séances <br>
+            arcades avec des consoles en libre service
           </p>
+          <img class="auto" src="img/sallesdarcade.jpg" alt="salle">
+        </article>
+
+        <article class="text-block large-width">
+          <br><h2>Titre de l'article</h2>
+          <img class="auto" src="img/github.png" alt="image">
+          <p>Contenu de l'article</p>
+          <br>
+        </article>
+        
+
+        <article class="text-block large-width">
+          <br><h2>Ou nous Trouver?</h2>
+          <div id="map" style="width: 600px; height: 400px;"></div>
+          <script>
+          
+              const map = L.map('map').setView([51.505, -0.09], 13);
+          
+              const tiles = L.tileLayer('https://api.maptiler.com/maps/streets-v2-night/{z}/{x}/{y}.png?key=7zLr8H4QbqjR3FZDv9Z4', {
+                  maxZoom: 19,
+                  attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+              }).addTo(map);
+          </script>
+          Voici une carte
+        </article>
+        <p class="mentions-bottom">
+          <a href="Mentions.html">Mentions légales</a> <br>
+          Copyright © Benoît Kourlatof<br>
+  
+          Le code source de ce site est publié sous license 
+          <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">
+            GNU Affero General Public Licence version 3.0 <br>
+            <img src="img/agplv3.png" alt="agplv3"> <br>
+          </a>
+          il est diponible sur <a href="https://github.com/elouan660/Site-club-retro">Github</a>
+        </p>
       </div>
   </body>
 </html>
