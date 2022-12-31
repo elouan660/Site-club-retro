@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: white ;
     margin: auto;
 }
 /*Barre de navigation*/
@@ -53,7 +53,7 @@ body{
 
 
 /*Articles multiples*/
-  #news-feeds,.sup-top{
+  section,.sup-top{
       margin-top: 80px;
       text-align: center;
       left: 0;
@@ -61,7 +61,6 @@ body{
 
   }
   .text-block{
-    background-color: white;
     text-align: center;
     left: 0;
     right: 0;
@@ -71,6 +70,21 @@ body{
 
   h1,h2{
     font-family: DejaVu Sans;
+  }
+
+  #first-block{
+    background-image: url('../img/sallesdarcade.jpg');
+    padding-top: 16.5%;
+    padding-bottom: 16.5%;
+    color: white;
+  }
+  #second-block{
+    background-color: #FFECD1;
+    color: #001524;
+  }
+  #third-block{
+    background-color: #15616D;
+    color: #FFECD1;
   }
 
 
@@ -98,8 +112,10 @@ body{
 /*Mentions Légales*/
 .mentions-bottom{
   text-align: center;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #001524;
+  color: white;
 }
 .mentions-page{
   margin-top: 70px;
