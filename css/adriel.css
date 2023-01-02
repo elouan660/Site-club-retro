@@ -1,75 +1,145 @@
 body{
-  background-color: #FFECD1;
+  background-color: #FEFEE3 ;
+  margin: auto;
+  font-family: DejaVu Sans;
 }
+/*Barre de navigation*/
 .logo{
-  display: block;
-  padding: 5px;
-  float: left;
+    display: block;
+    padding: 5px;
+    float: left;
+    width: 8%;
+    height: 8%;
 }
-h1{
-  text-align: center;
+#bar{
+    font-family: Px AmstradPC1512-2y;
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    padding-bottom: 2px;
+    overflow: hidden;
+    background-color: #FFECD1;
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #001524;
-  border-radius: 5px;
-}
-
-li {
-  float: left;
-}
-
 li .bar {
+  display: table-cell;
+  color: #001524;
+  text-align: center;
+  padding: 1% 2%;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  float: left;
+  width: 15%;
+}
+li.bar:not(img){
+  display: table-cell;
+  vertical-align: middle;
+}
+/*
+li .bar-right{
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 90px;
+  padding: 0px 90px;
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
+  float: right;
 }
-
-/* Change the link color to #111 (black) on hover */
+*/
 li a:hover {
-  background-color: #15616D;  
+  background-color: #4C956C;  
 }
 
-#news-feed {
-  align-items: left;
-  background-color: #efefef;
-  font-family: sans-serif;
-  margin: 0;
-  padding: 20px;
+
+
+/*Articles multiples*/
+section,.sup-top{
+    margin-top: 80px;
+    text-align: center;
+    left: 0;
+    right: 0;
+
+}
+.text-block{
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
-#news-feed h1 {
-  color: #333333;
-  font-size: 18px;
-  margin: 1px;
-  float: left;
+#first-block{
+  background-image: url('../img/sallesdarcade.jpg');
+  padding-top: 16.5%;
+  padding-bottom: 16.5%;
+  color: #FFC9B9;
+}
+#second-block{
+  background-color: #FFECD1;
+  color: #D68C45;
+}
+#third-block{
+  background-color: #2C6E49;
+  color: #FFECD1;
+  padding-bottom: 15px;
 }
 
-#news-feed p {
-  color: #666666;
-  float: right;
-  font-size: 10px;
-  margin: 0 0 20px ;
-  width: 100px;
-  height: 250px;
-  overflow: hidden;
-  word-wrap: break-word;
-  }
-  
 
-#news-feed img {
-  width: 70%;
-  height: auto;
+/*Images*/
+.auto{
+border-radius: 10px;
+width: 70%;
+height: auto;
+left: 0;
+margin: 0px;
+}
+.small{
+width: 10%;
+height: 10%;
+}
+.icon{
+max-width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+.right{
+padding-right: 30%;
+float: right;
+}
+.left{
+padding-left: 30%;
+float: left;
 }
 
-p{
-  float: right;
-  align-items: center;
+/*Mentions Légales*/
+.mentions-bottom{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 5px;
+padding-top: 5px;
+background-color: #2C6E49;
+color: white;
+}
+.abso-bottom{
+position: absolute;
+bottom:0;
+margin-bottom: 0;
+width: 100%;
+}
+.mentions-page{
+margin-top: 70px;
+}
+
+.button{
+background-color: #78290F;
+padding: 5px;
+border-radius: 5px;
+color: #FF7D00;
 }
