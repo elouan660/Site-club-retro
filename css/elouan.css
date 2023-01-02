@@ -4,13 +4,7 @@ body{
     font-family: DejaVu Sans;
 }
 /*Barre de navigation*/
-  .logo{
-      display: block;
-      padding: 5px;
-      float: left;
-      width: 8%;
-      height: 8%;
-  }
+  
   #bar{
       font-family: Px AmstradPC1512-2y;
       list-style-type: none;
@@ -24,21 +18,22 @@ body{
       top: 0;
       left: 0;
       width: 100%;
+      z-index: 1000;
   }
   li .bar {
     display: table-cell;
     color: #001524;
     text-align: center;
     padding: 1% 2%;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
     margin-left: 0px;
     margin-right: 0px;
     text-decoration: none;
     float: left;
     width: 15%;
-  }
-  li.bar:not(img){
-    display: table-cell;
-    vertical-align: middle;
+    height: 50px;
+    font-size: large;
   }
   /*
   li .bar-right{
@@ -55,12 +50,17 @@ body{
   li a:hover {
     background-color: #FF7D00;  
   }
-
-
+  .logo{
+    display: block;
+    padding: 5px;
+    float: left;
+    width: 12%;
+    height: 12%;
+}
 
 /*Articles multiples*/
   section,.sup-top{
-      margin-top: 80px;
+      margin-top: 10%;
       text-align: center;
       left: 0;
       right: 0;
@@ -75,10 +75,15 @@ body{
   }
 
   #first-block{
-    background-image: url('../img/sallesdarcade.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/sallesdarcade.jpg');
     padding-top: 16.5%;
     padding-bottom: 16.5%;
+    color: #FFECD1;
+    font-size: x-large;
+  }
+  #first-block h2{
     color: #FF7D00;
+    font-size: xx-large;
   }
   #second-block{
     background-color: #FFECD1;
@@ -94,7 +99,7 @@ body{
 /*Images*/
 .auto{
   border-radius: 10px;
-  width: 70%;
+  width: 60%;
   height: auto;
   left: 0;
   margin: 0px;
@@ -102,6 +107,8 @@ body{
 .small{
   width: 10%;
   height: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icon{
   max-width: 20px;
@@ -138,10 +145,32 @@ body{
 }
 
 .button{
-  background-color: #78290F;
+  background-color: #FFECD1;
   padding: 5px;
   border-radius: 5px;
-  color: #FF7D00;
+  color: black;
+  margin-bottom: 0;
+}
+#first-block .inscription{
+  color: #FFECD1;
+  background-color: #FF7D00;
 }
 
 
+@media screen and (max-width: 600px) {
+  li .bar, .logo{
+    float: none;
+  }
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+  }
+  #first-block{
+    padding-top: 35%;
+  }
+  #source{
+    padding-top: 35%;
+  }
+}

@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
     <title>ClubRetroLivet</title>
     <link rel="icon" type="image/x-icon" href="img/frog.png">
 
@@ -18,6 +18,7 @@
             border-radius: 5px;
             margin-left: auto;
             margin-right: auto;
+            z-index: 999;
         }
     </style>
     <link rel="stylesheet" href="css/elouan.css">
@@ -43,23 +44,30 @@
       <div id="news-feed">
         <article id="first-block" class="text-block large-width">
           <strong>
-          <h2>Bienvenue sur le Site du Club retrogaming</h2>
           <p>
+            <h2>Bienvenue sur le Site du Club retrogaming</h2>
+
             Nous sommes un club de La MDL du Lycée Livet réservé aux lycéens du Lycée Livet et dédié <br>
             au rétrogaming, nous organisons des Tournois, des découvertes de jeux et des séances <br>
             arcades avec des consoles en libre service
           </p>
-          <a class="button" href="histoire.html"><img class="icon" src="img/console.png" alt="manette">L'histoire du retrogaming</a>
-          <a class="button" href="forminscri.html"><img class="icon" src="img/form-icon.png" alt="form">Inscriptions</a>
+          <div><a class="button" href="histoire.html"><img class="icon" src="img/console.png" alt="manette">L'histoire du retrogaming</a></div> <br>
+          <div><a class="button inscription" href="forminscri.html"><img class="icon" src="img/form-icon.png" alt="form">Inscription</a></div>
           </strong>
         </article>
 
         <article id="second-block" class="text-block large-width">
-          <br><h2>Titre de l'article</h2>
-          <p>Contenu de l'article</p>
+          <br><h2>Actualités</h2>
           <div class="slider">
-            <div><img class="auto slide" src="img/sallesdarcade.jpg" alt="image"></div>
+            <div><img class="auto slide" src="img/sallesdarcade.jpg" alt="image"><br>Lorem ipsum</div>
             <div><img class="small slide" src="img/github.png" alt="image"></div>
+            <div>
+              <h3>Lorem ipsum</h3> <br> 
+              dolor sit amet consectetur adipisicing elit. Fugit nostrum molestias voluptatem nulla 
+              <br> officiis. Repellat dolor eaque natus consequuntur earum quis numquam autem quidem maxime soluta, itaque obcaecati praesentium! Illo. 
+              <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nemo velit tempora temporibus molestias, laborum fugiat expedita soluta quod, id adipisci autem voluptates provident veritatis ipsa fugit ratione itaque doloremque. <br>
+              <img class="small" src="img/frog.gif" alt="console">
+            </div>
           </div>
           <!--Librairie-->
             <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
