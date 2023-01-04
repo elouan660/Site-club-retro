@@ -162,11 +162,14 @@ body{
 
 .button, button{
   background-color: #FFECD1;
-  padding: 5px;
+  padding: 10px;
   border-radius: 0px;
   color: black;
   margin-bottom: 0;
-  padding-top: 10px;
+}
+button{
+  color: #FFECD1;
+  background-color: #15616D;
 }
 .button.orange{
   color: #FFECD1;
