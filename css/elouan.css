@@ -6,7 +6,7 @@ body{
 /*Barre de navigation*/
   
   #bar{
-      font-family: Px AmstradPC1512-2y;
+      font-family: Px AmstradPC1512-2y, sans-serif;
       list-style-type: none;
       margin-top: 0px;
       padding: 0;
