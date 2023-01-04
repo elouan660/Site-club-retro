@@ -160,12 +160,13 @@ body{
   margin-top: 70px;
 }
 
-.button{
+.button, button{
   background-color: #FFECD1;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
   color: black;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 .button.orange{
   color: #FFECD1;
@@ -196,4 +197,5 @@ body{
   .sup-top{
     margin-top: 70%;
   }
+
 }
