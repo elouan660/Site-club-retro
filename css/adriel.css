@@ -67,7 +67,7 @@ section,.sup-top{
 }
 
 #first-block{
-  background-image: url('../img/sallesdarcade.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/sallesdarcade.jpg');
   padding-top: 16.5%;
   padding-bottom: 16.5%;
   color: #FFC9B9;
