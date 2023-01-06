@@ -126,8 +126,9 @@ margin-bottom: 0;
 width: 100%;
 }
 .mentions-page{
-margin-top: 70px;
+margin-bottom: auto;
 }
+
 
 .button{
 background-color: #78290F;
