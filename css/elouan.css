@@ -157,7 +157,7 @@ body{
   width: 100%;
 }
 .mentions-page{
-  margin-top: 70px;
+  margin-top: 5%;
 }
 
 .button, button{
@@ -199,6 +199,9 @@ button{
   }
   .sup-top{
     margin-top: 70%;
+  }
+  .mentions-page{
+    margin-top: 40%;
   }
 
 }
