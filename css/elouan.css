@@ -191,7 +191,13 @@ button{
     padding-top: 35%;
   }
   #source{
-    padding-top: 35%;
+    padding-top: 60%;
+  }
+  .small{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .article{
     margin-left: 5%;
@@ -203,5 +209,8 @@ button{
   .mentions-page{
     margin-top: 80%;
   }
-
+  #footer.abso-bottom{
+    position: static;
+    width: 100%;
+  }
 }
