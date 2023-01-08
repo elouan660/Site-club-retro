@@ -9,7 +9,7 @@ Projet Elouan et Adriel 1G5 NSI livet 2022-2023
 * Css personnel (adriel.css)
 #### Elouan:
 * Choix de la license (agplv3)
-* Contenu des pages: histoire.html; Mentions.html; Site_retro.html; source.html;
+* Contenu des pages: histoire.html; Mentions.html; index.html; source.html;
 * Footer et Navbar
 * Intégrations javascript (Slick, Leaflet)
 * Css personnel (elouan.css)
