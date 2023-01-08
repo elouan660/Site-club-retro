@@ -6,13 +6,13 @@ body{
 /*Barre de navigation*/
 .logo{
     display: block;
-    padding: 5px;
+    padding: 0%;
     float: left;
     width: 8%;
     height: 8%;
 }
 #bar{
-    font-family: Px AmstradPC1512-2y;
+    font-family: sans-serif;
     list-style-type: none;
     margin-top: 0px;
     padding: 0;
