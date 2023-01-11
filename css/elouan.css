@@ -7,11 +7,11 @@ body{
   /*Propriétés de la barre en elle même*/
   #bar{
       font-family: Px AmstradPC1512-2y, sans-serif;
-      list-style-type: none;
+      list-style-type: none; /*Supprime les puces*/
       margin-top: 0px;
       padding: 0;
       padding-bottom: 2px;
-      overflow: hidden;
+      overflow: hidden; /*évite à un élément de la liste de dépasser*/
       background-color: #FFECD1;
       border-radius: 0px;
       position: fixed;
@@ -22,7 +22,7 @@ body{
   }
   /*Propriétés des boutons de la barre*/
   li .bar {
-    display: table-cell;
+    display: table-cell; /*Réagi comme un tableau*/
     color: #001524;
     text-align: center;
     padding: 1% 2%;
@@ -179,11 +179,13 @@ button{
   background-color: #FF7D00;
 }
 
-
+/*Responsive Web design*/
 @media screen and (max-width: 600px) {
+  /*Affiche les boutons les uns au dessus des autres*/
   li .bar, .logo{
     float: none;
   }
+  /*Centre le logo*/
   .logo{
     margin-left: auto;
     margin-right: auto;
@@ -212,6 +214,7 @@ button{
   .mentions-page{
     margin-top: 80%;
   }
+  /*permet d'éviter que le footer ne se superpose au contenu lorsque l'écran est trop petit*/
   #longfooter{
     position: static;
   }
