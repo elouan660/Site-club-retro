@@ -11,5 +11,5 @@ Projet Elouan et Adriel 1G5 NSI livet 2022-2023
 * Choix de la license (agplv3)
 * Contenu des pages: histoire.html; Mentions.html; index.html; source.html;
 * Footer et Navbar
-* Intégrations javascript (Slick, Leaflet)
+* Intégrations javascript (Slick, Leaflet, Maptiler)
 * Css personnel (elouan.css)
