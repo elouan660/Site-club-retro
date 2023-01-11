@@ -1,5 +1,7 @@
 # Site-club-retro
 Projet Elouan et Adriel 1G5 NSI livet 2022-2023
+Un site pour le club retrogaming du lycée livet permettant aux livetiens de découvrir et de s'incrire au club
+
 
 ### Répartition des tâches
 #### Adriel:
