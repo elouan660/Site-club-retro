@@ -8,7 +8,7 @@ Un site pour le club retrogaming du lycée livet permettant aux livetiens de dé
 * HTML
 * CSS
 * javscript
-* module javascripts:
+* modules javascript:
   * [leaflet](https://leafletjs.com/)
   * [jquery](https://jquery.com/)
   * [slick](https://kenwheeler.github.io/slick/)
